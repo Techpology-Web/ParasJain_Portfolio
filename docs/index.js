@@ -139,7 +139,7 @@ function updateShowcasePopup()
 {
 	var current = getActiveAp();
 	var toAppend = ""
-	var template = "<img class='object-cover' src=';' width='$' height='*' onclick='updateMainImg(:)' />"
+	var template = "<img class='object-cover cursour-pointer' alt='art piece' src=';' width='$' height='*' onclick='updateMainImg(:)' />"
 
 	var i = 0;
 	current.images.forEach(e => {
