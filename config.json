@@ -22,6 +22,6 @@
 		"hamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png"
 	},
 	"autoRefresh": {
-		"ignore" : ["./build", "./.git", ".py", ".json", "./LICENSE"]
+		"ignore" : ["./docs", "./.git", ".py", ".json", "./LICENSE"]
 	}
 }
