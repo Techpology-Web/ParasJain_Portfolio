@@ -1,0 +1,27 @@
+{
+	"localhost": "localhost",
+	"port": 8000,
+	"buildPath": "./build",
+	"root": "index.html",
+	"html": [
+		"./src",
+		"./src/Components"
+	],
+	"cssPath":
+	[
+		"./src/css"
+	],
+	"jsPath":
+	[
+		"./src/js"
+	],
+	"pages": [
+		"./src/index.html"
+	],
+	"vars": {
+		"hamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png"
+	},
+	"autoRefresh": {
+		"ignore" : ["./build", "./.git", ".py", ".json", "./LICENSE"]
+	}
+}

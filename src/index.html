@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html id="html">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+		<script src="https://cdn.tailwindcss.com"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<link href="index.css" rel="stylesheet" />
+		<script type="text/javascript" src="index.js"></script>
+
+		<title>Paras Jain</title>
+	</head>
+
+	<body id="body">
+
+		<div class="w-full h-full fixed bg-[#00000080] z-20 flex items-center justify-center" id="sc" style="display: none;">
+			<div class="w-full h-full bg-[#00000080] absolute" onclick="disableAp()" />
+			<div class="w-[80%] h-[90%] bg-white rounded-3xl flex flex-col overflow-auto lg:overflow-hidden lg:flex-row justify-between z-30" id="scContainer">
+				<img id="sc_0" class="object-scale-down w-auto h-[800px] lg:w-full lg:h-auto" /> <!-- sc: ShowCase; 0: primary; -->
+				<div class="w-full lg:w-[30%] h-[4000px] lg:h-auto p-8 bg-slate-200 flex flex-col rounded-3xl lg:overflow-auto gap-2" id="scDiv">
+				</div>
+			</div>
+		</div>
+
+		<div class="w-screen h-screen bg-white flex flex-col items-center justify-center">
+			<p class="roboto text-[64px] font-light animate__animated animate__fadeInUp">Paras Jain</p>
+			<p class="roboto text-[32px] font-extralight animate__animated animate__fadeInUp">Concept Artist || Illustrator</p>
+			<p class="roboto text-[24px] font-light animate__animated animate__fadeInUp">Welcome to just a sample of what i do</p>
+
+			<div class="flex flex-row gap-12 mt-8 mb-4">
+				<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/feed/"><img alt="linkedin" class="w-[40px] h-[40px] animate__animated animate__fadeInLeft animate__delay-1s cursor-pointer" src="GFX/linkedin.svg" /></a>
+				<a target="_blank" rel="noopener noreferrer" href="https://www.artstation.com/parasjain"><img alt="artstation" class="w-[40px] h-[40px] animate__animated animate__fadeInRight animate__delay-1s cursor-pointer" src="GFX/artstation.svg" /></a>
+			</div>
+			<p class="roboto text-[24px] font-light underline animate__animated animate__fadeInUp animate__delay-2s cursor-pointer">Contact me</p>
+		</div>
+
+		<div class="w-full h-[240px] flex items-center justify-center bg-[#FCFCFC] shadow-inner px-8 text-center">
+			<p class="roboto text-[32px] font-light text-[#00000080]">Started as a hobby, and now I bring ideas to life full time</p>
+		</div>
+
+		<p class="roboto text-[40px] font-light pl-8 md:pl-24 my-4">Projects</p>
+		<div class="flex flex-col w-full mt-8 gap-12">
+			<div class="flex flex-row flex-wrap w-full justify-evenly gap-2">
+				<? Thumbnail inner=Underworld</br>Gang</br>Wars img=./GFX/ugw.png _id=0 ?>
+				<? Thumbnail inner=Unnamed</br>Fighting</br>Game img=./GFX/ufg.png _id=1 ?>
+			</div>
+
+			<div class="flex flex-row flex-wrap w-full justify-evenly gap-2">
+				<? Thumbnail inner=Neo</br>Soulus img=./GFX/ns.png _id=2 ?>
+				<? Thumbnail inner=Mahou</br>X</br>Machina img=./GFX/mxm.png _id=3 ?>
+			</div>
+
+			<div class="flex flex-row flex-wrap w-full justify-evenly gap-2">
+				<? Thumbnail inner=Stellar img=./GFX/s.png _id=4 ?>
+				<? Thumbnail inner=Search</br>for</br>Adventure img=./GFX/sfa.png _id=5 ?>
+			</div>
+
+			<div class="flex flex-row flex-wrap w-full justify-evenly gap-2">
+				<? Thumbnail inner=Sci</br>Fi</br>Battle</br>Royalle img=./GFX/sfbr.png _id=6 ?>
+				<? Thumbnail inner=Illustrations img=./GFX/i.png _id=7 ?>
+			</div>
+		</div>
+	</body>
+</html>
