@@ -1,7 +1,7 @@
 {
 	"localhost": "localhost",
 	"port": 8000,
-	"buildPath": "./build",
+	"buildPath": "./docs",
 	"root": "index.html",
 	"html": [
 		"./src",
